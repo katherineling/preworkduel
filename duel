@@ -1,0 +1,13 @@
+gandalf = [10, 11, 13, 30, 22, 11, 10, 33, 22, 22]
+saruman = [23, 66, 12, 43, 12, 10, 44, 23, 12, 17]
+g  = 0
+s = 0
+
+for g in gandalf:
+    for s in saruman:
+        if g > s:
+            print("gandalf wins")
+        elif g < s:
+            print("saruman wins")
+        elif g == s:
+            print("tie")
